@@ -32,7 +32,7 @@ class MessageList extends Component{
   }
 
   onClick(e){
-  		console.log(e.target.parentNode.getAttribute("id"));
+  		console.log(e.target.parentNode);
   		console.log(e.target.parentNode.parentNode.textContent);
   		document.getElementById("msg").value = e.target.parentNode.parentNode.textContent;
   		document.getElementById("msgid").value = e.target.parentNode.getAttribute("id");
