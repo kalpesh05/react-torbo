@@ -2,7 +2,7 @@
   "name": "react-torbo",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://kalpesh05.github.io/reactdemo",
+  "homepage":"https://kalpesh05.github.io/react-torbo/",
   "dependencies": {
     "firebase": "^4.12.0",
     "gh-pages": "^1.1.0",
