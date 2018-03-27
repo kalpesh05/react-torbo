@@ -37,12 +37,14 @@ class MessageBox extends Component{
 					message: trim(e.target.value),
 					id: key
 				});
+				e.target.value = "";
 			}else{
 				let dbCon = this.props.db.database().ref('/messages/'+mid);		
 				dbCon.update({
 					message: trim(e.target.value),
 					id: mid
 				});
+				e.target.value = "";
 			}
 
 
